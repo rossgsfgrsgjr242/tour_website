@@ -1,0 +1,689 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.p-menu1 {
+  height: 100%;
+}
+
+.hamburger1 {
+  height: 45px;
+  margin: 0px;
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: right;
+  z-index: 120;
+}
+
+.hamburger1 div {
+  background-color: maroon;
+  width: 40px;
+  height: 5px;
+  margin-top: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#toggle1 {
+  display: none;
+}
+
+#toggle1:checked ~ .menu1 {
+  height: 340px;
+}
+
+.menu1 {
+  width: 100%;
+  background-color: maroon;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: 1fr repeat(4, 0.5fr);
+  grid-row-gap: 25px;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  width: auto;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.4s ease;
+  z-index: 120;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 30px;
+}
+
+.menu1 a:first-child {
+  margin-top: 20px;
+}
+
+.menu1 a:last-child {
+  margin-bottom: 20px;
+}
+
+.link1 {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  font: 700 20px "Oswald", sans-serif;
+}
+
+.link1:hover {
+  background-color: white;
+  color: rgb(61, 61, 61);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.logo-container {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: maroon;
+}
+
+.image-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.additional-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.button-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.find-tour-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 24px;
+  text-decoration: none;
+  background-color: maroon;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.find-tour-button:hover {
+  background-color: #990000;
+}
+
+.icons-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0 55px;
+}
+
+.icon i {
+  font-size: 50px;
+  color: maroon;
+}
+
+.icon p {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #333;
+}
+
+.testimonial-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.testimonial-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-image {
+  width: 300px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testimonial-text {
+  max-width: 400px;
+  text-align: left;
+  font-family: "Arial, sans-serif";
+}
+
+.testimonial-text p {
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.testimonial-text cite {
+  display: block;
+  font-style: italic;
+  font-size: 14px;
+  color: #666;
+}
+
+.spotlight-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.spotlight-section h2 {
+  font-size: 28px;
+  color: maroon;
+}
+
+.spotlight-section p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.destination {
+  margin-bottom: 30px;
+}
+
+.destination h3 {
+  font-size: 24px;
+  color: maroon;
+}
+
+.destination p {
+  font-size: 16px;
+  color: #333;
+}
+
+.spotlight-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.spotlight-image {
+  width: 48%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 20px 0;
+  color: maroon;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.company-name {
+  font-size: 20px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+
+.footer-nav a {
+  color: maroon;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-nav a:hover {
+  background-color: #990000;
+  color: white;
+}
+
+.barcelona-tours-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.barcelona-tours-section h2 {
+  font-size: 28px;
+  color: maroon;
+}
+
+.barcelona-tours-section p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.local-guides-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.local-guides-section h2 {
+  font-size: 28px;
+  color: maroon;
+}
+
+.local-guides-section p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.local-guides-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.guide-image {
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.guide-image:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.barcelona-city-tours-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.city-tour {
+  margin-bottom: 30px;
+}
+
+.tour-image {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.tour-image:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+h3 {
+  font-size: 30px;
+  color: maroon;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Shop Section Styles */
+.cart-section {
+  border: 1px solid maroon;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.cart-section h2 {
+  font-size: 24px;
+  color: maroon;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.cart-section ul {
+  font-size: 24px;
+  color: black;
+  margin-top: 10px;
+  text-align: center;
+}
+#cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-items li {
+  margin-bottom: 8px;
+}
+
+.checkout-button {
+  background-color: maroon;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.checkout-button:hover {
+  background-color: #990000;
+}
+.shop-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 50px;
+}
+
+.shop-item {
+  text-align: center;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.shop-item:hover {
+  transform: scale(1.05);
+}
+
+.item-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+h3 {
+  font-size: 24px;
+  color: maroon;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.item-price {
+  font-size: 20px;
+  color: #990000;
+  font-weight: bold;
+}
+.gift-shop-title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.gift-shop-title h1 {
+  font-size: 36px;
+  color: maroon;
+  margin-bottom: 10px;
+}
+.add-to-cart-button {
+  background-color: maroon;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: #990000;
+}
+
+.book-now-button {
+  background-color: maroon;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book-now-button:hover {
+  background-color: #990000;
+}
+
+.meet-us-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.meet-us-section h2 {
+  font-size: 28px;
+  color: maroon;
+  text-align: center;
+}
+
+.meet-us-section p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.meet-us-info {
+  text-align: left;
+}
+
+.meet-us-info p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-form h2 {
+  font-size: 28px;
+  color: maroon;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+  color: maroon;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: maroon;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #990000;
+}
+.our-story-section,
+.our-mission-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.our-story-section h2 {
+  text-align: center;
+  color: #990000;
+}
+
+.our-mission-section h2 {
+  text-align: center;
+  color: #990000;
+}
+
+.image-gallery {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.image-item {
+  flex-basis: 48%;
+  text-align: center;
+}
+
+.caption {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+iframe {
+  width: 100%;
+  height: 800px;
+  margin-top: 20px;
+}
+.image-section h2 {
+  color: #990000;
+}
+
+@media only screen and (max-width: 768px) {
+  .shop-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .shop-item {
+    width: 80%;
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .our-story-section img,
+  .our-mission-section img,
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-item {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .caption {
+    font-size: 14px;
+  }
+
+  .our-mission-section p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+
+  .company-logo {
+    width: 120px;
+    height: auto;
+  }
+
+  .company-name {
+    font-size: 16px;
+  }
+
+  .footer-nav {
+    margin-right: 0;
+  }
+
+  .footer-nav a {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contact | BarcaTours.com</title>
+  </head>
+  <body>
+    <header>
+      <!-- Logo and Company Name -->
+      <div class="logo-container">
+        <img src="images/logo.png" alt="BarcaTours Logo" class="logo" />
+        <div class="company-name">BarcaTours</div>
+      </div>
+      <!-- Navigation Menu -->
+      <section class="p-menu1">
+        <nav id="navbar" class="navigation" role="navigation">
+          <input id="toggle1" type="checkbox" />
+          <label class="hamburger1" for="toggle1">
+            <div class="top"></div>
+            <div class="meat"></div>
+            <div class="bottom"></div>
+          </label>
+          <!-- Navigation Menu -->
+          <nav class="menu1">
+            <a class="link1" href="/index.html">Home</a>
+            <a class="link1" href="/Tours.html">Tours</a>
+            <a class="link1" href="/Shop.html">Shop</a>
+            <a class="link1" href="/Contact.html">Contact Us</a>
+            <a class="link1" href="/About.html">About Us</a>
+          </nav>
+        </nav>
+      </section>
+    </header>
+
+    <section class="image-section">
+      <h2>Our Beautiful Offices in Barcelona</h2>
+      <img src="images/stringio.jpg" alt="image_one" class="additional-image" />
+    </section>
+
+    <section class="image-section">
+      <h2>Find Us On The Map</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38154.220806976795!2d-6.3639908!3d53.29600505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670b53e833c23d%3A0x460fe90bfc221fcc!2sTallaght%20Stadium!5e0!3m2!1sen!2sie!4v1701856739549!5m2!1sen!2sie"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="meet-us-section">
+      <div class="meet-us-info">
+        <h2>Contact Information</h2>
+        <p>Feel free to contact us:</p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Email: info@barcatours.com</p>
+        <p>Address: 123 Main Street, Barcelona</p>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Ask a Question!</h2>
+      <div class="form-container">
+        <form id="myForm" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <div class="field-error"></div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <div class="field-error"></div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="submit-button">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="Company Logo" class="company-logo" />
+          <p class="company-name">BarcaTours</p>
+        </div>
+
+        <nav class="footer-nav">
+          <a class="link1" href="/index.html">Home</a>
+          <a class="link1" href="/Tours.html">Tours</a>
+          <a class="link1" href="/Shop.html">Shop</a>
+          <a class="link1" href="/Contact.html">Contact Us</a>
+          <a class="link1" href="/About.html">About Us</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="form.js"></script>
+  </body>
+</html>
